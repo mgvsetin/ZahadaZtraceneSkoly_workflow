@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# https://m365.cloud.microsoft/chat/?titleId=T_fa7479b0-0972-5ee7-ba41-8bb4bacf5a39&source=embedded-builder
 """
 Build script - Vytvoreni spustitelne aplikace (.exe) bez nutnosti instalace Python.
 
@@ -170,7 +171,7 @@ def print_success() -> None:
 
 def main() -> None:
     """Hlavní funkce."""
-    print("\n[BUILD] Build script - Zahada Ztracene Skoly\n")
+    print("\n[BUILD] Build script -  {PROJECT_NAME}\n")
 
     # Kontroly
     if not check_pyinstaller():
