@@ -170,7 +170,7 @@ def print_success() -> None:
 
 def main() -> None:
     """Hlavní funkce."""
-    print("\n[BUILD] Build script - Zahada Ztracene Skoly\n")
+    print("\n[BUILD] Build script -  {PROJECT_NAME}\n")
 
     # Kontroly
     if not check_pyinstaller():
